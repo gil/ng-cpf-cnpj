@@ -8,7 +8,6 @@
   "main": "./lib/ngCpfCnpj.js",
   "description": "AngularJS directive to validate CPF/CNPJ numbers.",
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",

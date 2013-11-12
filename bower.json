@@ -1,0 +1,24 @@
+{
+  "name": "ng-cpf-cnpj",
+  "version": "0.0.1",
+  "authors": [
+    "André Gil <hey@andregil.net>"
+  ],
+  "description": "AngularJS directive to validate CPF/CNPJ numbers.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cpf_cnpj": "~0.0.3"
+  },
+  "devDependencies": {
+    "angular": "~1.2.0",
+    "angular-ui-utils": "~0.0.4"
+  }
+}

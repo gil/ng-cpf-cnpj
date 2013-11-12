@@ -8,7 +8,7 @@ AngularJS directive to validate CPF/CNPJ numbers.
 
 And add to your index.html
 
-```
+```html
 <script src="bower_components/cpf_cnpj/build/cpf.js"></script>
 <script src="bower_components/cpf_cnpj/build/cnpj.js"></script>
 <script src="bower_components/ng-cpf-cnpj/lib/ngCpfCnpj.js"></script>

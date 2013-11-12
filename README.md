@@ -2,6 +2,18 @@
 
 AngularJS directive to validate CPF/CNPJ numbers.
 
+## How to install
+
+```bower install ng-cpf-cnpj --save```
+
+And add to your index.html
+
+```
+<script src="bower_components/cpf_cnpj/build/cpf.js"></script>
+<script src="bower_components/cpf_cnpj/build/cnpj.js"></script>
+<script src="bower_components/ng-cpf-cnpj/lib/ngCpfCnpj.js"></script>
+```
+
 ## How to use
 
 Just add ```ng-cpf``` or ```ng-cnpj``` to any ```<input/>```. You can also use ```ui-mask```, from [ui-utils](https://github.com/angular-ui/ui-utils), to restrict the format:

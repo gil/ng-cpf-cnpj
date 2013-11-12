@@ -4,6 +4,8 @@
   "authors": [
     "André Gil <hey@andregil.net>"
   ],
+  "homepage": "https://github.com/gil/ng-cpf-cnpj",
+  "main": "./lib/ngCpfCnpj.js",
   "description": "AngularJS directive to validate CPF/CNPJ numbers.",
   "license": "MIT",
   "private": true,

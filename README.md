@@ -29,3 +29,26 @@ Just add ```ng-cpf``` or ```ng-cnpj``` to any ```<input/>```. You can also use `
 
 </form>
 ```
+
+## Active or inative the validation
+
+Just use  ```ng-required``` to set when it will be validated or not.
+
+```html
+<form name="myForm">
+
+  <input type="radio" name="tipo" ng-model="tipo" value="F"> &nbsp;Pessoa Física&nbsp;
+  <input type="radio" name="tipo" ng-model="tipo" value="J"> &nbsp;Pessoa Jurídica&nbsp;
+  
+  <div ng-show="tipo=='F'">
+    <input name="cpf" ng-model="cpf" ng-cpf ui-mask="999.999.999-99" ng-required="tipo=='F'" />
+    myForm.cpf.$valid: {{ myForm.cpf.$valid }}
+  </div>
+
+  <div ng-show="tipo=='J'">
+    <input name="cnpj" ng-model="cnpj" ng-cnpj ui-mask="99.999.999/9999-99" ng-required="tipo=='J'" />
+    myForm.cnpj.$valid: {{ myForm.cnpj.$valid }}
+  </div>
+
+</form>
+```

@@ -13,6 +13,9 @@ And add to your index.html
 <script src="bower_components/cpf_cnpj/build/cnpj.js"></script>
 <script src="bower_components/ng-cpf-cnpj/lib/ngCpfCnpj.js"></script>
 ```
+And inject it to your angular.module
+
+```angular.module('myApp', ['ngCpfCnpj']); ```
 
 ## How to use
 

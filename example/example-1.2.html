@@ -32,13 +32,23 @@
     <form name="myForm">
 
         <div>
+            CPF: <input name="requiredCpf" ng-model="requiredCpf" ui-mask="999.999.999-99" ng-cpf required /> <small>(Required)</small><br/>
+            <small>myForm.requiredCpf.$valid: <strong>{{ myForm.requiredCpf.$valid }}</strong></small>
+        </div>
+
+        <div>
             CPF: <input name="cpf" ng-model="cpf" ui-mask="999.999.999-99" ng-cpf /><br/>
-            <small>myForm.cpf.$valid: {{ myForm.cpf.$valid }}</small>
+            <small>myForm.cpf.$valid: <strong>{{ myForm.cpf.$valid }}</strong></small>
+        </div>
+
+        <div>
+            CNPJ: <input name="requiredCnpj" ng-model="requiredCnpj" ui-mask="99.999.999/9999-99" ng-cnpj required /> <small>(Required)</small><br/>
+            <small>myForm.requiredCnpj.$valid: <strong>{{ myForm.requiredCnpj.$valid }}</strong></small>
         </div>
 
         <div>
             CNPJ: <input name="cnpj" ng-model="cnpj" ui-mask="99.999.999/9999-99" ng-cnpj /><br/>
-            <small>myForm.cnpj.$valid: {{ myForm.cnpj.$valid }}</small>
+            <small>myForm.cnpj.$valid: <strong>{{ myForm.cnpj.$valid }}</strong></small>
         </div>
 
     </form>

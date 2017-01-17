@@ -16,7 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "cpf_cnpj": "~0.0.3"
+    "cpf_cnpj": "~0.2.0"
   },
   "devDependencies": {
     "angular": "1.3.0",
